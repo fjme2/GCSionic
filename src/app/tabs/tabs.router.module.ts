@@ -8,6 +8,15 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
+        path: 'cards',
+        children: [
+          {
+            path: '',
+            loadChildren: '../card-decks/card-decks.module#CardDecksPageModule'
+          }
+        ]
+      },
+      {
         path: 'tab1',
         children: [
           {
@@ -36,14 +45,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/cards',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/cards',
     pathMatch: 'full'
   }
 ];
