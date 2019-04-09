@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Book"
+             x:Class="Book.MainPage">
+    <StackLayout>
+        <!--Place new controls here -->
+        <Button Text="Add book" Clicked="Button_Clicked"/>
+        <ListView x:Name="bookList" ItemSelected="BookList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding firstAuthor}"/>
+                            <Label Text="."/>
+                            <Label Text="{Binding title}"/>
+                            <Label Text=":"/>
+                            <Label Text="{Binding publishYear}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

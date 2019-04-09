@@ -1,0 +1,14 @@
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\bin\Debug\netstandard2.0\Book.deps.json
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\bin\Debug\netstandard2.0\Book.dll
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.csprojAssemblyReference.cache
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.csproj.CoreCompileInputs.cache
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.AssemblyInfoInputs.cache
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.AssemblyInfo.cs
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\AddingBook.xaml.g.cs
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.dll
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\Book.pdb
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\bin\Debug\netstandard2.0\Book.pdb
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fran\Desktop\GCSionic\Book\Book\Book\obj\Debug\netstandard2.0\EditingBook.xaml.g.cs

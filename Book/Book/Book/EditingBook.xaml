@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Book.EditingBook">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="title" Placeholder="Title"/>
+            <Entry x:Name="author" Placeholder="First author"/>
+            <Entry x:Name="year" Placeholder="Year of publishment" Keyboard="Numeric"/>
+            <Button Text=" Delete This Book" Clicked="Button_deleteBook"/>
+            <Button Text=" Edit This Book" Clicked="Button_updateBook"/>
+            <Button Text=" Cancel" Clicked="Button_Cancel"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
