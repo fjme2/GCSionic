@@ -8,6 +8,7 @@
   <app-card-list *ngFor="let cardDeck of cardDecks"
   [items] = "cardDeck.types"
   [listName]= "cardDeck.name"
+  [navigateTo]="generateURL"
   >
   </app-card-list>
 </ion-content>

@@ -9,6 +9,7 @@ export class CardListComponent implements OnInit {
 
   @Input() items: any[];
   @Input() listName: string;
+  @Input() navigateTo: any;
 
   constructor() { }
 

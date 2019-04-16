@@ -1,6 +1,7 @@
+import { CardDeck } from './../card/shared/card.model';
 import { CardService } from './../card.service';
 import { Component, OnInit } from '@angular/core';
-import { CardDeck } from '../card/shared/card.model';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -13,7 +14,7 @@ export class CardDecksPage {
   readonly ALLOWED_DECKS:string[]=['classes', 'factions', 'qualities', 'types', 'races'];
   public cardDecks:CardDeck[] = [];
 
-  constructor(private cardservice: CardService) { 
+  constructor(private cardservice: CardService, private router: Router) { 
     this.getCardDecks();
   }
 
@@ -29,6 +30,10 @@ export class CardDecksPage {
         this.extractAllowedDecks(cardDecksService);
       }
     )
+  }
+
+  generateURL(cardDeckGroup: string, cardDeck: string){
+    return '/tabs/cards/card-listing/'  + cardDeckGroup + '/' + cardDeck;
   }
 
 
